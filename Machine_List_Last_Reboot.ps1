@@ -1,7 +1,4 @@
 ﻿# Powershell script to check Last Reboot Time on a list of machines included in a text file
-# Author - Vikram Bedi 
-# vikram.bedi.it@gmail.com 
-
 
 $machines = Get-Content C:\Users\<User Alias>\Desktop\Machine_List.txt
 $report = @()
